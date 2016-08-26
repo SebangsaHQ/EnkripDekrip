@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="merah">#ff0000</color>
+    <color name="merah_jambu">#ff00ff</color>
+    <color name="merah_tua">#7f0000</color>
+    <color name="biru">#0000ff</color>
+    <color name="biru_muda">#00ffff</color>
+    <color name="biru_tua">#00007f</color>
+    <color name="biru_tua_gelap">#007f7f</color>
+    <color name="hijau">#00ff00</color>
+    <color name="hijau_tua">#007f00</color>
+    <color name="kuning">#ffff00</color>
+    <color name="kuning_tua">#827f00</color>
+    <color name="ungu">#7f007f</color>
+    <color name="hitam">#000000</color>
+    <color name="abuabu">#666666</color>
+    <color name="putih">#ffffff</color>
+</resources>

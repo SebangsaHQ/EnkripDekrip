@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="org.tego.workshop.android.ende.TampilanEnkripsi"
+    tools:ignore="UselessParent" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvEnkripsi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enkripsi_teks"
+                android:textColor="@color/kuning"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+
+            <EditText
+                android:id="@+id/etMasukanEnkripsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:typeface="monospace" >
+
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:id="@+id/tvKunciEnkripsi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kunci"
+                android:textColor="@color/kuning"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+
+            <EditText
+                android:id="@+id/edKunciEnkripsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:typeface="monospace" />
+
+            <Button
+                android:id="@+id/btnEnkripsikan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/enkripsikan"
+                android:textStyle="normal"
+                android:typeface="monospace" />
+
+            <Button
+                android:id="@+id/btnEnkem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tombol_kembali"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/tvHasil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tampil_hasil"
+                android:textColor="@color/kuning"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
